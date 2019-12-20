@@ -7,7 +7,7 @@ function AboutUs() {
         <Cell col={6}>
             <div className="about-image">
                 <img src='about.jpg' alt='about' height='80%' width="80%"></img>
-                <p>Shrub trimming and flowerbed mainanence.</p>
+                <p>Shrub trimming and flowerbed maintenance.</p>
             </div>
         </Cell>   
         <Cell col={6}>
