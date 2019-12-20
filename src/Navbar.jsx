@@ -24,13 +24,14 @@ function Navbar() {
         <div className='info-div'>
             <h4> Commercial and Residiential Landscaping Service Since 1994</h4>
             <hr/>
+            </div>
             <div className="social-links">
                 <a href="tel: 972-268-2450" style={{color:'white', margin:'0'}}><i className="fas fa-phone-square"></i></a>
                 <a href="https://www.facebook.com/OS-Landscaping-123095288286956" style={{color:'white', margin:'0'}}><i className="fab fa-facebook-square"/></a>
                 <a href="mailto:masetaherian@gmail.com" style={{color:'white', margin:'0'}}><i className="fas fa-envelope-square"/></a>
             </div>
 
-        </div>
+        
         <Content />
     </Layout>
 </div>    
