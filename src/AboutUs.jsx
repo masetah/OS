@@ -14,12 +14,13 @@ function AboutUs() {
         <Cell col={5}>
            <div className="about-us">
                 <h1>About Us</h1>
-                <p style={{marginTop:'50px'}}>Our 25 years of experience means you will get hassle free service with great results. We specialize in beautifying and creating curb appeal for any home or 
+                <h5 style={{marginTop:'20px'}}>Our 25 years of experience means you will get hassle free service with great results. We specialize in beautifying and creating curb appeal for any home or 
                 business. When you choose O&S your guests will get that wow factor when walking up!
-                </p>
+                </h5>
                 <hr/>
                 <h3>Services</h3>
                 <h5>Mow Service | Tree and Shrub Trimming | Flowerbed Installation</h5>
+                <img src="./lawn-mower.png" alt="lawn mower" height="300px" width="350px"/>
                 
             </div>
         </Cell>
