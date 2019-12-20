@@ -3,6 +3,19 @@
   background: black;
   color: white;
   display: block;
+  font-family: 'Cinzel', serif;
+}
+
+.App h1 {
+  font-family: 'Cinzel',serif;
+}
+
+.App h3 {
+  font-family: 'Cinzel',serif;
+}
+
+.App h5 {
+  font-family: 'Cinzel',serif;
 }
 
 .logo {
