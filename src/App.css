@@ -1,38 +1,87 @@
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  background: black;
   color: white;
+  display: block;
 }
 
-.App-link {
-  color: #61dafb;
+.logo {
+  display: block;
+  margin-top: 1%; 
+  margin-left: auto; 
+  margin-right: auto; 
+  border-radius: 25%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.info-div {
+  color:white;
+  background: #078929;
+  width:50%;
+  padding: 15px;
+  display:block;
+  margin:auto;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  opacity: .9;
+  border-radius: 10px;
+  border: solid white 2px;
+}
+
+.info-div hr{
+  border-top: 5px solid white;
+  font-size: 20px;
+  width: 60%;
+  margin:auto;
+}
+
+.info-div a{
+  font-size: 5em;
+  padding: 20px;
+}
+
+.social-links {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  width: 100%;
+  margin: auto;
+}
+
+.about-comp{ 
+  margin-top: 50px;
+}
+
+.about-image{ 
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.about-us{ 
+padding-top:2%;
+}
+
+.gallery{
+  width:90%;
+  display: block;
+  margin-top: 40px;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.contact-form{
+  width:50%;
+  display: block;
+  margin-top: 50px;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.contact-form Form{
+  margin-top: 25px;
+
+}
+
+.footer{
+  margin-top:50px;
 }
