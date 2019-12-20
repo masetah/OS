@@ -7,7 +7,7 @@ function Contact() {
         <Grid>
         <Cell col={12}>
             <div className="contact-form">
-                <h1>Contact us For a Quote</h1>
+                <h3>Contact us For a Quote</h3>
                 <Form action='' method="POST">
 
                 <FormGroup row>
