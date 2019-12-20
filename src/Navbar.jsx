@@ -4,7 +4,7 @@ function Navbar() {
     return (
         <div style={{height: '600px', position: 'relative'}}>
     <Layout style={{background:'url(https://images.unsplash.com/photo-1558904541-efa843a96f01?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2378&q=80) center / cover'}}>
-        <Header transparent title="Dallas/ Ft. Worth" style={{color: 'white'}}>
+        <Header title="Dallas/ Ft. Worth" style={{color: 'white', background: 'black'}}>
             <Navigation>
                 {/* <a href="#">Link</a>
                 <a href="#">Link</a>
