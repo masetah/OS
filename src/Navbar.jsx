@@ -12,7 +12,7 @@ function Navbar() {
                 <a href="tel:972-268-2450">(972) 268-2450</a>
             </Navigation>
         </Header>
-        <Drawer  title="O&S">
+        <Drawer  title="O&S Landscaping">
             <Navigation>
                 <a href="#">Link</a>
                 <a href="#">Link</a>

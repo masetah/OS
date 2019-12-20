@@ -60,15 +60,22 @@
   margin: auto;
 }
 
-.about-comp{ 
+.about-body{
+  margin: auto;
+  width: 100%;
+  justify-content: center; 
   margin-top: 30px;
 }
 
-.about-image{ 
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 40px;
+.about-grid{ 
+  text-align: center;
+  justify-content: center;
+  width: 85%;
+}
+
+.about-image {
+  width: 100%;
+  justify-content: center;
 }
 
 .about-us{ 
