@@ -5,9 +5,12 @@ function PageFooter() {
     return (
         <div className='footer'>
         <Footer size="mini">
-        <FooterSection type="left" logo="O&S Landscaping">
+        <FooterSection type="left" logo="O&S Landscaping 2019">
         <FooterLinkList>
             <a href="https://www.masetaherian.com">Site by Mase T.</a>
+            <a href="#">Email:</a>
+            <a href="#">Phone: </a>
+            <a href="#">Facebook </a>
         </FooterLinkList>
         </FooterSection>
         </Footer>

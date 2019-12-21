@@ -14,10 +14,10 @@ function Navbar() {
         </Header>
         <Drawer  title="O&S Landscaping">
             <Navigation>
-                <a href="#">Link</a>
-                <a href="#">Link</a>
-                <a href="#">Link</a>
-                <a href="#">Link</a>
+                <a href="#">Home</a>
+                <a href="#">Services</a>
+                <a href="#">Social Media</a>
+                <a href="#">Contact</a>
             </Navigation>
         </Drawer>
         <img className='logo' src='OS-logo.png' alt='logo' height='200 px' width=' 225px'/>
