@@ -19,7 +19,7 @@ function AboutUs() {
                 </h5>
                 <hr/>
                 <h3>Services</h3>
-                <h5>Mow Service | Tree and Shrub Trimming | Flowerbed Installation</h5>
+                <h5>Mow Service | Tree and Shrub Trimming | Flowerbed Installation | Drainage and Grading</h5>
                 
                 
             </div>
