@@ -8,6 +8,7 @@ function Contact() {
         <Cell col={12}>
             <div className="contact-form">
                 <h3>Contact us For a Quote</h3>
+                <h5> Free Estimates</h5>
                 <Form action='' method="POST">
 
                 <FormGroup row>
