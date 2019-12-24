@@ -20,10 +20,11 @@ function Navbar() {
                 <a href="#">Contact</a>
             </Navigation>
         </Drawer>
-        <img className='logo' src='OS-logo.png' alt='logo' height='200 px' width=' 225px'/>
+        <img className='logo' src='OS-logo.png' alt='logo' height='200px' width=' 225px'/>
         <div className='info-div'>
             <h4> Commercial and Residiential Landscaping Service Since 1994</h4>
             <hr/>
+            <h5 style={{paddingTop:"20px"}} > Irrigation Repair | Tree Service | Free Estimate</h5>
             </div>
             <div className="social-links">
                 <a href="tel: 972-268-2450" style={{color:'white', margin:'0'}}><i className="fas fa-phone-square"></i></a>
