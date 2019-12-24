@@ -7,10 +7,11 @@ function PageFooter() {
         <Footer size="mini">
         <FooterSection type="left" logo="O&S Landscaping 2019">
         <FooterLinkList>
+            
+            <a href="tel:972-268-2450">(972) 268-2450 </a>
+            <a href="mailto:os_landscaping@yahoo.com">os_landscaping@yahoo.com</a>
             <a href="https://www.masetaherian.com">Site by Mase T.</a>
-            <a href="#">Email:</a>
-            <a href="#">Phone: </a>
-            <a href="#">Facebook </a>
+            
         </FooterLinkList>
         </FooterSection>
         </Footer>
