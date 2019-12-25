@@ -2,7 +2,7 @@ import React from 'react';
 import {Layout, Header, Navigation, Drawer, Content} from 'react-mdl'
 function Navbar() {
     return (
-        <div style={{height: '600px', position: 'relative'}}>
+        <div style={{height: '625px', position: 'relative'}}>
     <Layout style={{background:'url(https://images.unsplash.com/photo-1558904541-efa843a96f01?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2378&q=80) center / cover'}}>
         <Header title="Dallas/ Ft. Worth" style={{color: 'white', background: 'black'}}>
             <Navigation>
