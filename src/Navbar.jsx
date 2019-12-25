@@ -2,7 +2,7 @@ import React from 'react';
 import {Layout, Header, Navigation, Drawer, Content} from 'react-mdl'
 function Navbar() {
     return (
-        <div style={{height: '625px', position: 'relative'}}>
+        <div style={{height: '720px', position: 'relative'}}>
     <Layout style={{background:'url(https://images.unsplash.com/photo-1558904541-efa843a96f01?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2378&q=80) center / cover'}}>
         <Header title="Dallas/ Ft. Worth" style={{color: 'white', background: 'black'}}>
             <Navigation>
@@ -20,7 +20,7 @@ function Navbar() {
                 <a href="#">Contact</a>
             </Navigation>
         </Drawer>
-        <img className='logo' src='OS-logo.png' alt='logo' height='200px' width=' 225px'/>
+        <img className='logo' src='OS-logo.png' alt='OS logo' height='200px' width=' 225px'/>
         <div className='info-div'>
             <h4> Commercial and Residiential Landscaping Service Since 1994</h4>
             <hr/>
