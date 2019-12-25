@@ -22,7 +22,7 @@ function Navbar() {
         </Drawer>
         <img className='logo' src='OS-logo.png' alt='OS logo' height='200px' width=' 225px'/>
         <div className='info-div'>
-            <h4> Commercial and Residiential Landscaping Service Since 1994</h4>
+            <h4> Commercial and Residential Landscaping Service Since 1994</h4>
             <hr/>
             <h5 style={{paddingTop:"20px"}} > Irrigation Repair | Tree Service | Free Estimate</h5>
             </div>
