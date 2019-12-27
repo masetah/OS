@@ -47,8 +47,6 @@ function Navbar() {
                 <a href="https://www.facebook.com/OS-Landscaping-123095288286956" style={{color:'white', margin:'0'}}><i className="fab fa-facebook-square"/></a>
                 <a href="mailto:os_landscaping@yahoo.com" style={{color:'white', margin:'0'}}><i className="fas fa-envelope-square"/></a>
             </div>
-
-        
         <Content />
     </Layout>
 </div>    
