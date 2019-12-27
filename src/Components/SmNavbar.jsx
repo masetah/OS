@@ -6,8 +6,8 @@ import {Layout, Header, Navigation, Drawer, Content} from 'react-mdl';
 function SmNavbar() {
     return (
         <div style={{height: '300px', position: 'relative'}}>
-    <Layout fixedHeader>
-        <Header title={<a href="/" style={{color:'white'}}><span><strong>Home</strong></span></a>}>
+    <Layout fixedHeader >
+        <Header style={{background:'black'}} title={<Link to="/" style={{color:'white'}}><span><strong>Home</strong></span></Link>}>
             <Navigation>
                 <Link to="/services">Services</Link>
                 <Link to="/services/mow">Mow</Link>
