@@ -1,5 +1,7 @@
 import React from 'react';
 import {Cell, Grid} from 'react-mdl';
+import {Link} from 'react-router-dom';
+
 function AboutUs() {
     return (
         <div className="about-body">
@@ -19,9 +21,17 @@ function AboutUs() {
                 </h5>
                 <hr/>
                 <h3>Services</h3>
-                <h5> <a href='#'>Irrigation Repair </a>| <a href='#'>Mow Service</a> | <a href='#'>Tree Service</a> | <a href='#'>Flowerbed Installation and Service</a> | <a href='#'>Drainage and Grading</a></h5>
                 
-                
+                <Link to='/services/irrigation'>
+                    <h5 >Irrigation Repair </h5>
+                </Link>
+                <Link to='/services/mow'>
+                    <h5> Mow Serivice </h5>
+                </Link> 
+                <Link to='/services/tree'>
+                    <h5 >Tree Service </h5>
+                </Link> 
+
             </div>
         </Cell>
         </Grid> 

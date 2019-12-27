@@ -1,14 +1,30 @@
 import React from 'react';
-import {Layout, Header, Navigation, Drawer, Content} from 'react-mdl'
+import {Link} from 'react-router-dom';
+import {Layout, Header, Navigation, Drawer, Content} from 'react-mdl';
+import {UncontrolledDropdown, DropdownToggle, DropdownMenu, DropdownItem } from 'reactstrap';
+
 function Navbar() {
     return (
         <div style={{height: '720px', position: 'relative'}}>
     <Layout style={{background:'url(https://images.unsplash.com/photo-1558904541-efa843a96f01?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2378&q=80) center / cover'}}>
         <Header title="Dallas/ Ft. Worth" style={{color: 'white', background: 'black'}}>
             <Navigation>
-                {/* <a href="#">Link</a>
-                <a href="#">Link</a>
-                <a href="#">Link</a> */}
+            <UncontrolledDropdown nav inNavbar>
+              <DropdownToggle nav caret>
+                Services
+              </DropdownToggle>
+              <DropdownMenu right>
+                <DropdownItem>
+                  <Link to='/services/irrigation'>Irrigation Service</Link>
+                </DropdownItem>
+                <DropdownItem>
+                <Link to='/services/mow'>Mow Service</Link>
+                </DropdownItem>
+                <DropdownItem>
+                <Link to='/services/tree'>Tree Service</Link>
+                </DropdownItem>
+              </DropdownMenu>
+            </UncontrolledDropdown>
                 <a href="tel:972-268-2450">(972) 268-2450</a>
             </Navigation>
         </Header>

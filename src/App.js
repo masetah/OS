@@ -1,28 +1,24 @@
 import React from 'react';
 import './App.css';
-import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
-import Navbar from './Navbar';
-import AboutUs from './AboutUs';
-import Mowing from './Mowing';
-import Gallery from './Gallery';
-import Contact from './Contact';
-import PageFooter from './Footer';
+import {BrowserRouter as Router, Route} from 'react-router-dom';
+import Home from './Views/Home.jsx';
+import Services from './Views/Services.jsx';
+import Mow from './Views/Mow.jsx';
+import Tree from './Views/Tree.jsx';
+import Irrigation from './Views/Irrigation.jsx';
 
 function App() {
   return (
     
     <div className="App">
-      <Navbar/>
-      <AboutUs/>
-      <Gallery/>
-      <Contact/>
-
       <Router>
-      <Route  exact path="/mow-service" component={Mowing}/>
+        <Route exact path ='/' component={Home}/>
+        <Route exact path ='/services' component={Services}/>
+        <Route path ='/services/mow' component={Mow}/>
+        <Route path ='/services/irrigation' component={Irrigation}/>
+        <Route path ='/services/tree' component={Tree}/>
       </Router>
       
-
-      <PageFooter/>
     </div>
   );
 }
