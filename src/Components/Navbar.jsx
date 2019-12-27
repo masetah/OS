@@ -10,7 +10,7 @@ function Navbar() {
         <Header title="Dallas/ Ft. Worth" style={{color: 'white', background: 'black'}}>
             <Navigation>
             <UncontrolledDropdown nav inNavbar>
-              <DropdownToggle nav caret>
+              <DropdownToggle style={{color:'white'}} nav caret>
                 Services
               </DropdownToggle>
               <DropdownMenu right>
