@@ -9,10 +9,10 @@ function SmNavbar() {
     <Layout fixedHeader>
         <Header title={<a href="/" style={{color:'white'}}><span><strong>Home</strong></span></a>}>
             <Navigation>
-                <a href="/services">Services</a>
-                <a href="/services/mow">Mow</a>
-                <a href="/services/tree">Tree</a>
-                <a href="/services/irrigation">Irrigation</a>
+                <Link to="/services">Services</Link>
+                <Link to="/services/mow">Mow</Link>
+                <Link to="/services/tree">Tree</Link>
+                <Link to="/services/irrigation">Irrigation</Link>
             </Navigation>
         </Header>
         <Drawer title="Title">
