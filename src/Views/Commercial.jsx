@@ -2,15 +2,15 @@ import React from 'react';
 import SmNavbar from '../Components/SmNavbar';
 import Footer from '../Components/Footer';
 
-function Services() {
+function Commercial() {
   return (
     
-    <div className="Services">
+    <div className="Commercial">
         <SmNavbar />
-        <h1>This is Services</h1>
+        <h1>Commercial Information Page</h1>
         <Footer />
     </div>
   );
 }
 
-export default Services;
+export default Commercial;

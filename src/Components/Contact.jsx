@@ -11,7 +11,7 @@ function Contact() {
                 <h5> Free Estimates</h5>
                 <Form action='' method="POST">
 
-                <FormGroup row>
+                <FormGroup row >
                 <Label for="name" sm={2}>Name</Label>
                 <Col sm={10}>
                 <Input type="text" name="name" placeholder="First & Last" />
@@ -38,14 +38,35 @@ function Contact() {
                 <Input type="select" name="select" id="location">
                 <option>Midlothian, Tx</option>
                 <option>Red Oak, Tx</option>
+                <option>Ovilla, Tx</option>
+                <option>Oak Leaf, Tx</option>
+                <option>Pecan Hill, Tx</option>
+                <option>Farris, Tx</option>
+                <option>Palmer, Tx</option>
+                <option>Crisp, Tx</option>
+                <option>Ennis, Tx</option>
+                <option>Reagor Springs, Tx</option>
+                <option>Nash, Tx</option>
+                <option>Alma, Tx</option>
+                <option>Ike, Tx</option>
+                <option>Maypearl, Tx</option>
+                <option>Forreston, Tx</option>
+                <option>Garrett, Tx</option>
                 <option>Waxahachie, Tx</option>
-                <option>Ceder Hill, Tx</option>
-                <option>Mansfield, Tx</option>
+                <option>Bardwell, Tx</option>
+                <option>Italy, Tx</option>
+                <option>Plum Grove, Tx</option>
+                <option>Milford, Tx</option>
+                <option>Avalon, Tx</option>
+                <option>Rankin, Tx</option>
+                <option>Glenn Heights, Tx</option>
                 <option>DeSoto, Tx</option>
                 <option>Duncanville, Tx</option>
-                <option>Grand Prairie, Tx</option>
+                <option>Lancaster, Tx</option>
+                <option>Wilmer, Tx</option>
+                <option>Hutchins, Tx</option>
+                <option>Cedar Hill, Tx</option>
                 <option>South Dallas, Tx</option>
-                <option>North Dallas, Tx</option>
                 <option>Other</option>
                 </Input>
                 </Col>
