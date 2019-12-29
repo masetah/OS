@@ -6,7 +6,7 @@ import {UncontrolledDropdown, DropdownToggle, DropdownMenu, DropdownItem } from 
 
 function SmNavbar() {
     return (
-        <div style={{height: '300px', position: 'relative'}}>
+        <div style={{height: '60px', position: 'relative'}}>
     <Layout fixedHeader >
         <Header style={{background:'black'}} title={<Link to="/" style={{color:'white'}}><span><strong>Home</strong></span></Link>}>
             <Navigation>
