@@ -22,13 +22,14 @@
   font-family: 'Cinzel',serif;
 }
 .banner{
-  height: 720px;
+  height: 700px;
   position: relative;
   background: url('https://images.unsplash.com/photo-1558904541-efa843a96f01?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2378&q=80') center / cover;
+  padding-top: 25px; 
 }
 .logo {
   display: block;
-  padding-top: 35px; 
+  /* margin-top: 35px;  */
   margin-left: auto; 
   margin-right: auto; 
   border-radius: 25%;
