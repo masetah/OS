@@ -9,23 +9,23 @@ import {
 
 const items = [
   {
-    src: 'playground.jpg',
-    altText: 'flower bed install',
-    caption: 'Burleson, Tx'
-  },
-  {
     src: 'front.jpg',
-    altText: 'Front yard',
-    caption: 'Desoto, Tx'
+    altText: 'Slide 1',
+    caption: 'Slide 1'
   },
   {
     src: 'pool.jpg',
-    altText: 'Pool Lanscaping',
-    caption: 'Plano, Tx'
+    altText: 'Slide 2',
+    caption: 'Slide 2'
+  },
+  {
+    src: 'playground.jpg',
+    altText: 'Slide 3',
+    caption: 'Slide 3'
   }
 ];
 
-const Gallery = (props) => {
+const Gallary = (props) => {
   const [activeIndex, setActiveIndex] = useState(0);
   const [animating, setAnimating] = useState(false);
 
@@ -53,8 +53,8 @@ const Gallery = (props) => {
         onExited={() => setAnimating(false)}
         key={item.src}
       >
-        <img src={item.src} alt={item.altText} height='50%' width='60%'/>
-        <CarouselCaption captionHeader={item.caption} />
+        <img src={item.src} alt={item.altText} />
+        <CarouselCaption captionText={item.caption} captionHeader={item.caption} />
       </CarouselItem>
     );
   });
@@ -72,8 +72,7 @@ const Gallery = (props) => {
       <CarouselControl direction="next" directionText="Next" onClickHandler={next} />
     </Carousel>
     </div>
-
   );
 }
 
-export default Gallery;
+export default Gallary;

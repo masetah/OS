@@ -11,6 +11,7 @@ import Flower from './Views/Flower.jsx';
 import Drainage from './Views/Drainage.jsx';
 import Christmas from './Views/Christmas.jsx';
 import Commercial from './Views/Commercial.jsx';
+import Residential from './Views/Residential.jsx';
 
 function App() {
   return (
@@ -19,14 +20,15 @@ function App() {
       <Router>
         <Route exact path ='/' component={Home}/>
         {/* <Route exact path ='/services' component={Services}/> */}
-        <Route path ='/services/mow' component={Mow}/>
-        <Route path ='/services/irrigation' component={Irrigation}/>
-        <Route path ='/services/tree' component={Tree}/>
-        <Route path ='/services/sod' component={Sod}/>
-        <Route path ='/services/flower-bed' component={Flower}/>
-        <Route path ='/services/drainage' component={Drainage}/>
-        <Route path ='/services/christmas-lights' component={Christmas}/>
-        <Route path ='/services/commercial' component={Commercial}/>
+        <Route path ='/mow' component={Mow}/>
+        <Route path ='/irrigation' component={Irrigation}/>
+        <Route path ='/tree' component={Tree}/>
+        <Route path ='/sod' component={Sod}/>
+        <Route path ='/flower-bed' component={Flower}/>
+        <Route path ='/drainage' component={Drainage}/>
+        <Route path ='/christmas-lights' component={Christmas}/>
+        <Route path ='/commercial' component={Commercial}/>
+        <Route path ='/residential' component={Residential}/>
       </Router>
       
     </div>

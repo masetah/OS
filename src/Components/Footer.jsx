@@ -1,5 +1,5 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
+// import {Link} from 'react-router-dom';
 import {Footer, FooterSection, FooterLinkList} from 'react-mdl';
 
 function PageFooter() {
@@ -11,7 +11,7 @@ function PageFooter() {
             
             <a href="tel:972-268-2450">(972) 268-2450 </a>
             <a href="mailto:os_landscaping@yahoo.com">os_landscaping@yahoo.com</a>
-            <a href="http://www.masetaherian.com" target='_blank'>Site by Mase T.</a>
+            <a href="http://www.masetaherian.com" target='_blank' rel="noopener noreferrer">Site by Mase T.</a>
             
         </FooterLinkList>
         </FooterSection>

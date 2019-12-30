@@ -5,9 +5,11 @@ import Footer from '../Components/Footer';
 function Commercial() {
   return (
     
-    <div className="Commercial">
+    <div className="Commercial-page">
         <SmNavbar />
-        <h1>Commercial Information Page</h1>
+        <div className="Commercial-content">
+        <h1>Commercial Information Page</h1>    
+        </div>
         <Footer />
     </div>
   );

@@ -2,9 +2,11 @@ import React from 'react';
 
 import Navbar from '../Components/Navbar';
 import AboutUs from '../Components/AboutUs';
+import Services from '../Components/Services';
 import Gallery from '../Components/Gallery';
 import Contact from '../Components/Contact';
 import PageFooter from '../Components/Footer';
+
 
 function Home() {
   return (
@@ -12,6 +14,7 @@ function Home() {
     <div className="Home">
       <Navbar/>
       <AboutUs/>
+      <Services/>
       <Gallery/>
       <Contact/>
       <PageFooter/>
