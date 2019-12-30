@@ -22,7 +22,7 @@
   font-family: 'Cinzel',serif;
 }
 .banner{
-  height: 700px;
+  height: 720px;
   position: relative;
   background: url('https://images.unsplash.com/photo-1558904541-efa843a96f01?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2378&q=80') center / cover;
   padding-top: 25px; 
@@ -119,4 +119,5 @@
 } */
 .footer{
   margin-top:50px;
+  width:100%;
 }
