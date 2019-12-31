@@ -32,6 +32,7 @@ function Contact() {
                 <FormGroup row>
                 <Col sm={12}>
                 <Input type="select" name="select" id="location" placeholder="Your Location">
+                <option>Location</option>
                 <option>Midlothian, Tx</option>
                 <option>Red Oak, Tx</option>
                 <option>Ovilla, Tx</option>
@@ -71,6 +72,7 @@ function Contact() {
                 <FormGroup row>
                 <Col sm={12}>
                 <Input type="select" name="select" id="service">
+                <option>Service Type</option>
                 <option>Irrigation Repair</option>
                 <option>Mow Service</option>
                 <option>Tree Shrub Service</option>
