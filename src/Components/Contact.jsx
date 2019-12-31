@@ -9,7 +9,7 @@ function Contact() {
             <div className="contact-form">
                 <h3>Contact us For a Quote</h3>
                 <h5> Free Estimates</h5>
-                <Form action='' method="POST">
+                <Form action="https://formspree.io/mgeorapp" method="POST">
 
                 <FormGroup row >
                 <Col sm={12}>
