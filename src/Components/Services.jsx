@@ -24,7 +24,7 @@ function Services() {
                     ServiceLink='/mow'
                 />
                 <ServiceCard
-                    title="tree Service"
+                    title="Tree/Shrub Service"
                     backgroundURL="shrub.jpg"
                     description="This will be where the description for the service goes."
                     ServiceLink='/tree'
