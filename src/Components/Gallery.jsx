@@ -6,22 +6,23 @@ import {
   CarouselIndicators,
   CarouselCaption
 } from 'reactstrap';
+import {Cell, Grid} from 'react-mdl';
 
 const items = [
   {
     src: 'front.jpg',
-    altText: 'Slide 1',
-    caption: 'Slide 1'
+    altText: 'Flowerbed Cleanout',
+    caption: 'Flowerbed Cleanout'
   },
   {
     src: 'pool.jpg',
-    altText: 'Slide 2',
-    caption: 'Slide 2'
+    altText: 'Pool Landscaping',
+    caption: 'Pool Landscaping'
   },
   {
     src: 'playground.jpg',
-    altText: 'Slide 3',
-    caption: 'Slide 3'
+    altText: 'Playground Landcaping',
+    caption: 'Playground Lanscaping'
   }
 ];
 
@@ -54,13 +55,15 @@ const Gallary = (props) => {
         key={item.src}
       >
         <img src={item.src} alt={item.altText} />
-        <CarouselCaption captionText={item.caption} captionHeader={item.caption} />
+        <CarouselCaption captionHeader={item.caption} />
       </CarouselItem>
     );
   });
 
   return (
-    <div className="gallery">
+    <Grid>
+      <Cell col={12}>
+      <div>
     <Carousel
       activeIndex={activeIndex}
       next={next}
@@ -71,7 +74,9 @@ const Gallary = (props) => {
       <CarouselControl direction="prev" directionText="Previous" onClickHandler={previous} />
       <CarouselControl direction="next" directionText="Next" onClickHandler={next} />
     </Carousel>
-    </div>
+      </div>
+      </Cell>
+    </Grid> 
   );
 }
 

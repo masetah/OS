@@ -1,6 +1,7 @@
 import React from 'react';
 import {Cell, Grid} from 'react-mdl';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
+import ServiceCard from './ServiceCard.jsx';
 
 function Services() {
     return (
@@ -9,28 +10,50 @@ function Services() {
         <Cell col={12}>
             <div className="Services">
                 <h3>Services</h3>
-                
-                <Link to='/irrigation'>
-                    <h5 >Irrigation Repair </h5>
-                </Link>
-                <Link to='/mow'>
-                    <h5> Mow Serivice </h5>
-                </Link> 
-                <Link to='/tree'>
-                    <h5 >Tree Service </h5>
-                </Link>
-                <Link to='/sod'>
-                    <h5 >Sod Install </h5>
-                </Link>
-                <Link to='/flower-bed'>
-                    <h5 >Flower Beds</h5>
-                </Link>
-                <Link to='/drainage'>
-                    <h5 >Drainage and Grading</h5>
-                </Link> 
-                <Link to='/christmas-lights'>
-                    <h5 >Christmas Lighting</h5>
-                </Link>  
+                <div className="Service-cards">
+                <ServiceCard
+                    title="Irrigation Repair"
+                    backgroundURL="sprinker.jpg"
+                    description="This will be where the description for the service goes."
+                    ServiceLink='/irrigation'
+                />
+                <ServiceCard
+                    title="Mow Service"
+                    backgroundURL="green.jpg"
+                    description="This will be where the description for the service goes."
+                    ServiceLink='/mow'
+                />
+                <ServiceCard
+                    title="tree Service"
+                    backgroundURL="shrub.jpg"
+                    description="This will be where the description for the service goes."
+                    ServiceLink='/tree'
+                />
+                <ServiceCard
+                    title="Sod Installation"
+                    backgroundURL="sod-installation.jpg"
+                    description="This will be where the description for the service goes."
+                    ServiceLink='/sod'
+                />
+                <ServiceCard
+                    title="Flowerbed Service"
+                    backgroundURL="frontyard.jpg"
+                    description="This will be where the description for the service goes."
+                    ServiceLink='/flower-bed'
+                />
+                <ServiceCard
+                    title="Drainage and Grading"
+                    backgroundURL="frenchdrain.jpg"
+                    description="This will be where the description for the service goes."
+                    ServiceLink='/drainage'
+                />
+                <ServiceCard
+                    title="Christmas Lighting"
+                    backgroundURL="christmas-lights.jpg"
+                    description="This will be where the description for the service goes."
+                    ServiceLink='/christmas-lights'
+                />
+                </div>
             </div>
         </Cell>   
         </Grid> 

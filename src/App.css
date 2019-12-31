@@ -81,7 +81,7 @@
 .about-grid{ 
   text-align: center;
   justify-content: center;
-  width: 85%;
+  width: 90%;
 }
 
 .about-image {
@@ -94,14 +94,16 @@
 /* padding-top:2%; */
 }
 
-.gallery{
-  width:90%;
+.mower-div{
   display: block;
-  margin-top: 40px;
-  margin-left:auto;
-  margin-right:auto;
+  margin-left: auto; 
+  margin-right: auto;
+  margin-top: 50px; 
 }
-
+.Service-cards{
+  display: flex;
+  flex-wrap: wrap;
+}
 .contact-form{
   width:50%;
   display: block;
