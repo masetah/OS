@@ -9,7 +9,7 @@ function Services() {
         <Grid className="about-grid">
         <Cell col={12}>
             <div className="Services">
-                <h3>Services</h3>
+                <h1>Services</h1>
                 <div className="Service-cards">
                 <ServiceCard
                     title="Irrigation Repair"

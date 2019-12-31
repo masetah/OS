@@ -1,10 +1,22 @@
-import React from 'react';
+import React, {Component} from 'react';
 import SmNavbar from '../Components/SmNavbar';
 import Footer from '../Components/Footer';
 import Contact from '../Components/Contact';
 import ServiceCard from '../Components/ServiceCard.jsx';
 
-function Sod() {
+class Sod extends Component {
+  constructor(props) {
+    super(props);
+
+    this.state = {
+       
+    };
+}
+
+componentDidMount() {
+    window.scrollTo(0, 0);
+}
+render(){
   return (
     
     <div className="Sod">
@@ -20,6 +32,7 @@ function Sod() {
         <Footer />
     </div>
   );
+}
 }
 
 export default Sod;
