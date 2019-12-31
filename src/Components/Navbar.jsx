@@ -10,7 +10,7 @@ class Navbar extends Component {
             <div className = "banner">
             <img className='logo' src='OS-logo.png' alt='OS logo' />
             <div className='info-div'>
-                <h4> Offering Commercial and Residential Service to Ellis County and South Dallas Since 2004</h4>
+                <h4> Offering Commercial and Residential Services to Ellis County and South Dallas Since 2004</h4>
                 <hr/>
                 <h5 style={{paddingTop:"20px"}} > Mow Service | Tree Service | Irrigation Repair | Drainage | Sod Install | Free Estimate</h5>
                 </div>
