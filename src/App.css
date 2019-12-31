@@ -121,5 +121,18 @@
 } */
 .footer{
   margin-top:50px;
+  padding: 2%;
   width:100%;
+  background: grey;
+  color: black;
+}
+
+.footer-links {
+  margin-top:15px;
+}
+
+.footer-links a{
+  color:white;
+  padding-left: 2%;
+  padding-right: 2%;
 }

@@ -12,6 +12,7 @@ import Drainage from './Views/Drainage.jsx';
 import Christmas from './Views/Christmas.jsx';
 import Commercial from './Views/Commercial.jsx';
 import Residential from './Views/Residential.jsx';
+import ContactPage from './Views/ContactPage.jsx';
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
         <Route path ='/christmas-lights' component={Christmas}/>
         <Route path ='/commercial' component={Commercial}/>
         <Route path ='/residential' component={Residential}/>
+        <Route path ='/contact' component={ContactPage}/>
       </Router>
       
     </div>
