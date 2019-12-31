@@ -102,6 +102,20 @@
   flex-wrap: wrap;
 }
 
+.service-card{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+}
+
+.service-card-text{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 25px;
+}
+
 .gallery{
   height:75%;
   width:90%;

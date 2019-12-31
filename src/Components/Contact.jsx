@@ -12,10 +12,13 @@ function Contact() {
                 <Form action='' method="POST">
 
                 <FormGroup row >
-                <Col sm={6}>
+                <Col sm={12}>
                 <Input type="text" name="name" placeholder="Your Name" />
                 </Col>
-                <Col sm={6}>
+                </FormGroup>
+
+                <FormGroup row>
+                <Col sm={12}>
                 <Input type="tel" name="phone" placeholder="Your Number" />
                 </Col>
                 </FormGroup>
@@ -29,7 +32,6 @@ function Contact() {
                 <FormGroup row>
                 <Col sm={12}>
                 <Input type="select" name="select" id="location" placeholder="Your Location">
-                <option disabled>Your Location</option>
                 <option>Midlothian, Tx</option>
                 <option>Red Oak, Tx</option>
                 <option>Ovilla, Tx</option>
