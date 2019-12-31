@@ -21,7 +21,7 @@ const items = [
   {
     src: 'playground.jpg',
     altText: 'Playground Landcaping',
-    caption: 'Playground Lanscaping'
+    caption: 'Playground Landscaping'
   }
 ];
 

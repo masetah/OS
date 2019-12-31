@@ -5,7 +5,8 @@ import {
   NavbarToggler,
   NavbarBrand,
   Nav,
-  NavItem } from 'reactstrap';
+  NavItem, 
+  NavLink } from 'reactstrap';
   import {Link} from 'react-router-dom';
 
   const SmNavbar = (props) => {
@@ -20,13 +21,13 @@ import {
         <Collapse isOpen={isOpen} navbar>
           <Nav className="ml-auto" navbar>
             <NavItem>
-              <Link to="/commercial">Commercial</Link>
+              <NavLink><Link to="/commercial">Commercial</Link></NavLink>
             </NavItem>
             <NavItem>
-              <Link to="/residential">Residential</Link>
+            <NavLink><Link to="/residential">Residential</Link></NavLink>
             </NavItem>
             <NavItem>
-              <Link to="/contact"> Contact </Link>
+            <NavLink><Link to="/contact">Contact</Link></NavLink>
             </NavItem>
           </Nav>
         </Collapse>
