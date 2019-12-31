@@ -6,7 +6,6 @@ import {
   CarouselIndicators,
   CarouselCaption
 } from 'reactstrap';
-import {Cell, Grid} from 'react-mdl';
 
 const items = [
   {
@@ -54,15 +53,13 @@ const Gallary = (props) => {
         onExited={() => setAnimating(false)}
         key={item.src}
       >
-        <img src={item.src} alt={item.altText} />
+        <img src={item.src} alt={item.altText} style={{height:'80%', width:'80%'}}/>
         <CarouselCaption captionHeader={item.caption} />
       </CarouselItem>
     );
   });
 
   return (
-    <Grid>
-      <Cell col={12}>
       <div>
     <Carousel
       activeIndex={activeIndex}
@@ -75,8 +72,6 @@ const Gallary = (props) => {
       <CarouselControl direction="next" directionText="Next" onClickHandler={next} />
     </Carousel>
       </div>
-      </Cell>
-    </Grid> 
   );
 }
 

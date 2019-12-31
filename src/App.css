@@ -90,10 +90,6 @@
   justify-content: center;
 }
 
-.about-us{ 
-/* padding-top:2%; */
-}
-
 .mower-div{
   display: block;
   margin-left: auto; 
@@ -103,6 +99,11 @@
 .Service-cards{
   display: flex;
   flex-wrap: wrap;
+}
+
+.gallery{
+  height:75%;
+  width:90%;
 }
 .contact-form{
   width:50%;
