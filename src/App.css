@@ -21,7 +21,10 @@
 .App h5 {
   font-family: 'Cinzel',serif;
 }
+.Navigation {
+  color:green;
 
+}
 .banner{
   height: 720px;
   position: relative;

@@ -4,12 +4,12 @@ import Footer from '../Components/Footer';
 import Contact from '../Components/Contact';
 import Services from '../Components/Services';
 
-function Residential() {
+function ServicePage() {
   return (
     
-    <div className="Commercial">
+    <div className="Service-page">
         <SmNavbar />
-        <h1>Residential Information Page</h1>
+        <h1>Service Information Page</h1>
         <Services/>
         <Contact/>
         <Footer />
@@ -17,4 +17,4 @@ function Residential() {
   );
 }
 
-export default Residential;
+export default ServicePage;

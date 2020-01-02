@@ -4,13 +4,12 @@ import SmNavbar from './SmNavbar.jsx';
 class Navbar extends Component {
     render(){
         return (
-            
             <div>
             <SmNavbar />
             <div className = "banner">
             <img className='logo' src='OS-logo.png' alt='OS logo' />
             <div className='info-div'>
-                <h4> Offering Commercial and Residential Services to Ellis County and South Dallas Since 2004</h4>
+                <h4> Offering Commercial and Residential Services to Ellis County and Dallas Since 2004.</h4>
                 <hr/>
                 <h5 style={{paddingTop:"20px"}} > Mow Service | Tree Service | Irrigation Repair | Drainage | Sod Install | Free Estimate</h5>
                 </div>
@@ -20,7 +19,7 @@ class Navbar extends Component {
                     <a href="mailto:os_landscaping@yahoo.com" style={{color:'white', margin:'0'}}><i className="fas fa-envelope-square"/></a>
                 </div>
             </div>
-    </div>    
+            </div>    
         );
     }
    
