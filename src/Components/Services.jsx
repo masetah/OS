@@ -47,12 +47,12 @@ function Services() {
                     description="This will be where the description for the service goes."
                     ServiceLink='/drainage'
                 />
-                <ServiceCard
+                {/* <ServiceCard
                     title="Christmas Lighting"
                     backgroundURL="christmas-lights.jpg"
                     description="This will be where the description for the service goes."
                     ServiceLink='/christmas-lights'
-                />
+                /> */}
                 </div>
             </div>
         </Cell>   
