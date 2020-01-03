@@ -63,7 +63,7 @@ function Contact() {
                 <option>Wilmer, Tx</option>
                 <option>Hutchins, Tx</option>
                 <option>Cedar Hill, Tx</option>
-                <option>South Dallas, Tx</option>
+                <option>Dallas, Tx</option>
                 <option>Other</option>
                 </Input>
                 </Col>

@@ -2,8 +2,8 @@ import React, {Component} from 'react';
 import SmNavbar from '../Components/SmNavbar';
 import Footer from '../Components/Footer';
 import Contact from '../Components/Contact';
-import ServiceCard from '../Components/ServiceCard.jsx';
-
+import ServiceContent from '../Components/ServiceContent';
+import {Grid, Cell} from 'react-mdl';
 class Irrigation extends Component {
   constructor(props) {
     super(props);
@@ -21,14 +21,18 @@ render(){
     
     <div className="Irrigation">
         <SmNavbar />
-        <h1>Irrigation Service</h1>
-        <ServiceCard
-                    title="Irrigation Repair"
-                    backgroundURL="sprinker.jpg"
-                    description="This will be where the description for the service goes."
-                    ServiceLink='/irrigation'
-                />
-        <Contact/>
+        <Grid>
+          <Cell col={6}>
+          <ServiceContent
+          title="Irrigation Repair"
+          description="Let us inspect and repair your existing irrigation system."
+          expectation="O&S will inspect your system for leaks, adjust sprinker heads to conserve water and make necissary repairs."
+          />
+          </Cell>
+          <Cell col={6}>
+          <Contact/>
+          </Cell>
+        </Grid>
         <Footer />
     </div>
   );
