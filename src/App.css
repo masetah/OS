@@ -26,7 +26,7 @@
 
 }
 .banner{
-  height: 720px;
+  height: 700px;
   position: relative;
   background: url('https://images.unsplash.com/photo-1558904541-efa843a96f01?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2378&q=80') center / cover;
   padding-top: 25px; 
@@ -72,7 +72,8 @@
 
 .social-links a {
   font-size: 5em;
-  padding: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .about-body{

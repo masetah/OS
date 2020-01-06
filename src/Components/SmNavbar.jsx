@@ -23,7 +23,7 @@ import {
     return (
       <div className="Navigation"> 
         <Navbar color="light" light expand="md">
-          <NavbarBrand href="/"><img src="OS-logo.png" alt="OS-Landscaping" height="50px" width="50px"/> </NavbarBrand>
+          <NavbarBrand href="/"><img src="OS-logo.png" alt="OS-Landscaping" height="50px" width="50px" style={{borderRadius:'25%'}}/> </NavbarBrand>
           <NavbarToggler onClick={toggle} />
           <Collapse isOpen={isOpen} navbar>
             <Nav className="mr-auto" navbar>
