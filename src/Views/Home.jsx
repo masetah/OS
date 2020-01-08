@@ -16,7 +16,10 @@ function Home() {
       <AboutUs/>
       <Services/>
       <Gallery/>
+      <div className='home-contact-div'>
       <Contact/>
+      </div>
+      
       <PageFooter/>
     </div>
   );

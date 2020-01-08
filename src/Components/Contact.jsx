@@ -7,7 +7,7 @@ function Contact() {
         <Grid>
         <Cell col={12}>
             <div className="contact-form">
-                <h3>Contact us For a Free Estimate</h3>
+                <h3>Contact us For a Free Estimate.</h3>
                 <Form action="https://formspree.io/mgeorapp" method="POST">
 
                 <FormGroup row >
