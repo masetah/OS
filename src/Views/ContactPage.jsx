@@ -6,16 +6,14 @@ import {Grid, Cell} from 'react-mdl';
 
 function ContactPage() {
   return (
-    
-    <div className="Commercial-page">
+      <div>
         <SmNavbar />
-        <div className="Contact-page">
-        <Grid>
+        <Grid className="contact-grid">
             <Cell col={6}>
                 <img src="OS-logo.png" alt="OS-Landscaping" height='150px' width='160px' style={{borderRadius:'25%'}}/>
                 <p>Est. 2004</p>
                 
-                <div className='info-div'>
+                <div className='contact-info-div'>
                 <h1>Contact Us</h1>
                 <div className="social-links">
                     <hr style={{width:'25%'}}/>
@@ -33,9 +31,8 @@ function ContactPage() {
                 <Contact/> 
             </Cell>
         </Grid>
-        </div>
         <Footer />
-    </div>
+        </div>
   );
 }
 

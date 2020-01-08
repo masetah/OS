@@ -33,7 +33,6 @@
 }
 .logo {
   display: block;
-  /* margin-top: 35px;  */
   margin-left: auto; 
   margin-right: auto; 
   border-radius: 25%;
@@ -44,7 +43,7 @@
 .info-div {
   color:white;
   background: #078929;
-  width:60%;
+  width:80%;
   padding: 15px;
   display:block;
   margin:auto;
@@ -67,13 +66,32 @@
   justify-content: center;
   width: 100%;
   margin: auto;
-  /* margin-top: 10px; */
 }
 
 .social-links a {
-  font-size: 5em;
-  padding-left: 15px;
-  padding-right: 15px;
+  font-size: 4em;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.contact-info-div {
+  color:white;
+  background: #078929;
+  width:100%;
+  padding: 15px;
+  display:block;
+  margin:auto;
+  margin-top: 25px;
+  opacity: .9;
+  border-radius: 10px;
+  border: solid white 2px;
+}
+
+.contact-info-div hr{
+  border-top: 5px solid white;
+  font-size: 20px;
+  width: 60%;
+  margin:auto;
 }
 
 .about-body{
@@ -91,7 +109,6 @@
 
 .about-image {
   width: 100%;
-  /* margin-top: 3em; */
   justify-content: center;
 }
 
@@ -124,8 +141,14 @@
   height:75%;
   width:90%;
 }
+
+.contact-grid{ 
+  text-align: center;
+  justify-content: center;
+}
+
 .contact-form{
-  width:50%;
+  width:90%;
   display: block;
   margin-top: 50px;
   margin-left:auto;
@@ -136,9 +159,7 @@
   margin-top: 25px;
 
 }
-/* .Commercial-content{
-  padding-top: 100px;
-} */
+
 .footer{
   margin-top:50px;
   padding: 2%;
